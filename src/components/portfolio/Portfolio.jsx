@@ -20,14 +20,14 @@ const data =[
   {
   id: 2,
   image: IMG2,
-  title: 'Student & Teacher Grading System',
+  title: 'Online Casino',
   github: 'https://github.com/JamSaberCoding/JamSaberCoding',
   demo: 'https://github.com/JamSaberCoding/JamSaberCoding'
   },
   {
   id: 3,
   image: IMG3,
-  title: 'Student & Teacher Grading System',
+  title: 'Payment System',
   github: 'https://github.com/JamSaberCoding/JamSaberCoding',
   demo: 'https://github.com/JamSaberCoding/JamSaberCoding'
   },
@@ -41,14 +41,14 @@ const data =[
   {
     id: 5,
     image: IMG5,
-    title: 'Student & Teacher Grading System',
+    title: 'Marketing E-Slot Casino',
     github: 'https://github.com/JamSaberCoding/JamSaberCoding',
     demo: 'https://github.com/JamSaberCoding/JamSaberCoding'
   },
   {
     id: 6,
     image: IMG1,
-    title: 'Student & Teacher Grading System',
+    title: 'Smart Metering System',
     github: 'https://github.com/JamSaberCoding/JamSaberCoding',
     demo: 'https://github.com/JamSaberCoding/JamSaberCoding'
   }

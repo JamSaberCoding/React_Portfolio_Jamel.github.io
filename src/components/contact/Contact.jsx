@@ -3,6 +3,7 @@ import './contact.css'
 import {MdOutlineMailOutline} from 'react-icons/md'
 import {RiMessengerLine} from 'react-icons/ri'
 import {BsWhatsapp} from 'react-icons/bs'
+// import {FaWindowClose} from 'react-icons/fa'
 import emailjs from '@emailjs/browser';
 
 const Contact = () => {
@@ -21,12 +22,16 @@ const Contact = () => {
     message: message,
   }
 
+
     emailjs.send('service_u8hkgwa', 'template_seg8twn', EmailContent, 'cjXPLGPF6wLRNIXul')
       .then((result) => {
           console.log(result.text);
+          alert("Message Successfully sent!");
       }, (error) => {
           console.log(error.text);
+          alert("Message Is not sent!");
       });
+  
   };
 
 
@@ -60,6 +65,21 @@ const Contact = () => {
       </div>
 
       {/* ===========end of contact option============= */}
+
+      {/* <div className="modal__overlay">
+        <div className="modal__window">
+          <div className="modal__titlebar">
+            <span className="modal__title">
+              <h2>Message Sent</h2>
+            </span>
+            <button className="modal__close"><FaWindowClose className='modal__close-icon'/></button>
+          </div>
+
+          <div className="modal__content">
+            <small>Thank you i will response as soon as possible</small>
+          </div>
+        </div>
+      </div> */}
 
       <div>
 
